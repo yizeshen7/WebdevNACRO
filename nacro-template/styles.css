@@ -1,0 +1,71 @@
+/* CSS for NACRO pages */
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.custom-active {
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+#footer-name {
+    font-size: 1.5rem;
+}
+  
+footer a {
+    color: black;
+    display: block;
+    padding-bottom: 15px;
+}
+  
+footer a:hover {
+    color: black;
+}
+
+.jumbotron {
+    padding-bottom: 1.5rem;
+    background-image: url("images/placeholder.png");
+    background-size: cover;
+}
+
+/* Use this for jumbotrons that aren't the home page
+   -- adds more top padding like in the wireframes */
+.jumbotron-not-home {
+  padding-top: 15rem;
+}
+
+.navbar-brand {
+  padding-left: 5%;
+}
+
+.navbar-brand img {
+  max-width: 200px;
+}
+
+#right-nav {
+  padding-right: 10%;
+}
+
+#right-nav a {
+  margin: 0%;
+  color: black;
+}
+
+#right-nav .active {
+  color: white;
+}
+
+.social-img {
+    display: inline;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
