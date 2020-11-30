@@ -1,0 +1,72 @@
+
+/* Conferences Page */
+
+body{
+    height: 100%;
+    /* margin: 50px; */
+    box-align: center;
+
+}
+/* Hero image styling adapted from w3 schools  (https://www.w3schools.com/howto/howto_css_hero_image.asp) */
+.carousel-slide{  
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+.title {
+    color: #ffffff ;
+    font-size: 400% ;
+    position: relative; 
+    left: -20% ;
+    text-align: left;
+}
+
+.sub-title {
+    color: #ffffff ;
+    font-size: 80% ;
+    position: relative ;
+    left: -20% ;
+    text-align: left;
+}
+
+.header-text{
+    /* text-align: left; */
+    /* position: absolute; */
+    top: 50%;
+    color: white;
+
+}
+
+#what-is-nacro-img{
+    max-width: 500px;
+}
+
+.small-icons{
+    color: rgba(0, 0, 0, 0.5);
+    padding: 3px;
+}
+
+.content-text{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.past-conferences-wrapper{
+    padding: 15px;
+    background: gray;
+    width: 100%;
+    margin: 5px;
+
+}
+
+.past-conferences-text{
+    color: white;
+    text-decoration: underline;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
