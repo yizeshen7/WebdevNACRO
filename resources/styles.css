@@ -1,0 +1,165 @@
+/* CSS for NACRO pages */
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.custom-active {
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+#footer-name {
+    font-size: 1.5rem;
+}
+  
+footer a {
+    color: black;
+    display: block;
+    padding-bottom: 1em;
+}
+  
+footer a:hover {
+    color: black;
+}
+
+.jumbotron {
+    padding-bottom: 1.5rem;
+    background-image: url("images/placeholder.png");
+    background-size: cover;
+}
+
+/* Use this for jumbotrons that aren't the home page
+   -- adds more top padding like in the wireframes */
+.jumbotron-not-home {
+  padding-top: 15rem;
+}
+
+.navbar-brand {
+  padding-left: 5%;
+}
+
+.navbar-brand img {
+  max-width: 200px;
+}
+
+#right-nav {
+  padding-right: 10%;
+}
+
+#right-nav a {
+  margin: 0%;
+  color: black;
+}
+
+#right-nav .active {
+  color: white;
+}
+
+.social-img {
+    display: inline;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/* --------------------- */
+
+.paper-type {
+  font-size: 0.75em;
+  padding: 0.5em;
+  background-color: rgb(231, 229, 229);
+}
+
+iframe {
+  width: 100%;
+  height: 20em;
+}
+
+iframe[title="vimeo-player"] {
+  height: 475px;
+  padding: 0;
+  margin: 0;
+}
+
+.res-survey {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  margin-bottom: 1.5em;
+}
+
+.sm-show {
+  display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+  .sm-hide {
+    display: none;
+  }
+
+  .sm-show {
+    display: block;
+  }
+
+  iframe[title="vimeo-player"] {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+/* Bootstrap example code */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 15px;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+.sidebar-item {
+  box-sizing: border-box;
+  padding: 5px 15px 5px 10px;
+  width: 100%;
+  text-align: left;
+  font-size: 1.25em;
+}
+
+.sidebar-subitem {
+  font-size: 0.9em;
+  padding-left: 15%;
+}
+
+.sidebar-item:hover {
+  background-color: #747474;
+  color: black;
+}
+
+@media (max-width: 767.98px) {
+  .sidebar {
+    top: 5rem;
+  }
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  .sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
