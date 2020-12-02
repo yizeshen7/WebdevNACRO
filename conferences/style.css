@@ -55,3 +55,37 @@ body{
     margin-bottom: auto;
 
 }
+
+/* Card Styling */
+
+.card-img {
+    border-radius: 0px;
+}
+
+.card-header {
+    border-radius: 0px;
+}
+
+/* Button */
+
+.btn {
+    border-radius: 0px;
+    padding: 15px;
+}
+
+/* Nav Pills */
+/* Only applies to the not-active pill tab on this page */
+/* Have before so that the active button won't be affected */
+.nav-pills .nav-item .nav-link {
+    color: #343a40;
+    text-decoration: none;
+    background-color: transparent;
+}
+.nav-pills .nav-link.active {
+    color: white;
+    background-color: #343a40;
+}
+
+
+
+
