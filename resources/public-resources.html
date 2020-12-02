@@ -15,10 +15,10 @@
   <body>
     <nav class="navbar navbar-expand-md navbar-light bg-white">
       <a class="navbar-brand" href="#"><img id="nav-logo" src="images/nacro.png" alt="NACRO logo"/></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="#navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
         
         <!-- Placeholder -->
         <ul class="navbar-nav mr-auto"></ul>
@@ -26,10 +26,10 @@
 
         <ul id="right-nav" class="nav nav-pills justify-content-end">
           <li class="nav-item">
-            <a class="nav-link custom-active" href="#">Home</a>
+            <a class="nav-link custom-active" href="../Home/home.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Public Resources</a>
+            <a class="nav-link" href="../conferences/conferences.html">Conferences & Events</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Membership</a>
@@ -43,7 +43,7 @@
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Resources</a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="#">Member Resources</a>
-              <a class="dropdown-item" href="#">Public Resources</a>
+              <a class="dropdown-item" href="public-resources.html">Public Resources</a>
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -187,7 +187,7 @@
     
             <div class="row">
               <div class="col-12">
-                <div class="card mb-3" style="max-width: 1024px;">
+                <div class="card mb-3" style="max-width: 1024px; display: none;">
                   <div class="row">
                     <div class="col-12 col-md-3">
                         <img src="images/placeholder.png" class="card-img" style="display: block; height: 100%;" alt="conference-virtual-events">
@@ -209,7 +209,8 @@
     
             <div class="row">
               <div class="col-12 text-center">
-                <button class="btn btn-light border-dark">Load More</button>
+                <hr/>
+                <button id="pub-load" class="btn btn-light border-dark">Load More</button>
               </div>
             </div><br/><br/>
 
@@ -294,15 +295,16 @@
               </div>
             </div><br/>
 
+            <!--
             <div class="row">
               <div class="col-12 text-center">
                 <button class="btn btn-light border-dark">Load More</button>
               </div>
             </div><br/><br/>
-
+          -->
           </div>
         </div>
-      </div> <!-- /container -->
+      </div>
     </main>
 
     <footer class="bg-light">
@@ -317,8 +319,8 @@
             <br/>
           </div>
           <div class="col-3 col-md-2 sitemap">
-            <a href="#">Home</a>
-            <a href="#">Conferences</a>
+            <a href="../Home/home.html">Home</a>
+            <a href="../conferences/conferences.html">Conferences</a>
             <a href="#">Membership</a>
           </div>
           <div class="col-3 col-md-3 sitemap">
@@ -329,16 +331,18 @@
           </div>
           <div class="col-12 col-md-3">
             <p>Connect with Us</p>
-            <a class="social-img" href="#"><b>in</b></a>
-            <a class="social-img" href="#"><b>t</b></a>
-            <a class="social-img" href="#"><b>f</b></a>
-            <a href="#">info@NACROonline.org</a>
+            <a class="social-img" target="_blank" href="https://www.linkedin.com/groups/125703"><img class="social-img" src="images/linkedin-fill.png" alt="Linkedin"></a>
+            <a class="social-img" target="_blank" href="https://twitter.com/NACROCON"><img class="social-img" src="images/twitter-fill.png" alt="Twitter"></a>
+            <a class="social-img" target="_blank" href="https://www.facebook.com/NACROCON/"><img class="social-img" src="images/facebook-fill.png" alt="Facebook"></a>
+            <a href="mailto:info@NACROonline.org">info@NACROonline.org</a>
           </div>
         </div>
       </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+          <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="scripts/scripts.js"></script>
   </body>
 </html>
