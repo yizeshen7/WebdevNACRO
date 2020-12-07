@@ -34,6 +34,11 @@ footer a:hover {
     background-size: cover;
 }
 
+.btn {
+    border-radius: 0px;
+    padding: 12px;
+}
+
 /* Use this for jumbotrons that aren't the home page
    -- adds more top padding like in the wireframes */
 .jumbotron-not-home {
