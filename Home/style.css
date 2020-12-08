@@ -1,5 +1,14 @@
 /* CSS for NACRO pages */
 
+body{
+    background-color: #E9EFF3;
+}
+
+
+#widgetEvent {
+    background-color: #C9D3DF;
+}
+
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
